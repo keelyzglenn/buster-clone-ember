@@ -1,1 +1,8 @@
-{{yield}}
+<h1>{{article.title}}</h1>
+<br>
+<img src="{{article.image}}" alt="{{article.description}}"/>
+<br>
+<h2>{{article.author}}</h2>
+<h4>{{article.body}}</h4>
+
+<button {{action 'delete' article}}>Delete</button>
