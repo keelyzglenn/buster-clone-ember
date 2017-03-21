@@ -3,7 +3,7 @@
   <img src=" {{article.image}}" alt="" />
   </div>
   <div class="col-md-5">
-    <h3>{{article.title}}</h3>
+    <h3>{{#link-to 'article' article.id}}{{article.title}}{{/link-to}}</h3>
     <h5>{{article.description}}</h5>
     <h5>{{article.author}}</h5>
   </div>
