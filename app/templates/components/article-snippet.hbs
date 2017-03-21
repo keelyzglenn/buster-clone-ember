@@ -1,10 +1,12 @@
-<div class="row">
-  <div class="col-md-3">
-  <img src=" {{article.image}}" alt="" />
+<div class="row ">
+  <div class="col-md-1"></div>
+  <div class="stories col-md-10">
+    <img class="article-images" src=" {{article.image}}" alt="" />
+    <div class="info col-md-6">
+      <h3>{{#link-to 'article' article.id}}{{article.title}}{{/link-to}}</h3>
+      <h5>{{article.description}}</h5>
+      <h5>{{article.author}}</h5>
+    </div>
   </div>
-  <div class="col-md-5">
-    <h3>{{#link-to 'article' article.id}}{{article.title}}{{/link-to}}</h3>
-    <h5>{{article.description}}</h5>
-    <h5>{{article.author}}</h5>
-  </div>
+  <div class="col-md-1"></div>
 </div>

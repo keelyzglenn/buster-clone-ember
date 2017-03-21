@@ -1,0 +1,38 @@
+body {
+  background-color: #e3e6ed;
+}
+#logo {
+  height: 30px;
+  width: 90px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.navbar-nav {
+  padding-bottom: 3px;
+}
+
+
+.stories {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 150px;
+  background-color: white;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.info {
+  text-align: left;
+  float: right;
+}
+
+.article-images {
+  height: 200px;
+  width: 350px;
+  float: left;
+}
